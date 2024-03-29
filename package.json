@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "npx prisma generate && npx prisma migrate deploy && next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "npx neonctl auth"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.1.5",
